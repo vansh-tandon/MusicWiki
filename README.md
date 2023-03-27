@@ -39,6 +39,7 @@ All images are loaded using the Glide library. The library has been used to load
 
 ## UI
 The UI has been designed to match the indicative UI provided in the specs. The UI elements have been created using ConstraintLayout and RecyclerView.
+Screenshots of it can be found at the end of this README.
 
 ## Assumptions
 * The app assumes that the Last.fm API key provided in the build.gradle file is valid and will not expire.
