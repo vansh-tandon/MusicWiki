@@ -39,7 +39,27 @@ All images are loaded using the Glide library. The library has been used to load
 
 ## UI
 The UI has been designed to match the indicative UI provided in the specs. The UI elements have been created using ConstraintLayout and RecyclerView.
-Screenshots of it can be found at the end of this README.
+## Screenshots
+
+## First Screen
+![Screenshot1](screenshots/First.png)
+## First Screen (List expanded)
+![Screenshot2](screenshots/Second.png)
+
+## Genre Details Screen - Albums
+![Screenshot3](screenshots/Third.png)
+## Album Details
+![Screenshot4](screenshots/Fourth.jpg)
+
+## Genre Details Screen - Artists
+![Screenshot5](screenshots/fifth.png)
+## Artist Details
+![Screenshot6](screenshots/sixth.png)
+![Screenshot7](screenshots/seventh.png)
+
+## Genre Details Screen - Tracks
+![Screenshot8](screenshots/eigth.png)
+
 
 ## Assumptions
 * The app assumes that the Last.fm API key provided in the build.gradle file is valid and will not expire.
@@ -62,26 +82,6 @@ Screenshots of it can be found at the end of this README.
 The MusicWiki app is an unofficial Last.fm app that provides information about different music genres, albums, artists, and tracks. The app is built using the Last.fm API and follows the MVVM architecture pattern. The app has been designed to match the indicative UI
 
 
-# Screenshots
-
-## First Screen
-![Screenshot1](screenshots/First.png)
-## First Screen (List expanded)
-![Screenshot2](screenshots/Second.png)
-
-## Genre Details Screen - Albums
-![Screenshot3](screenshots/Third.png)
-## Album Details
-![Screenshot4](screenshots/Fourth.jpg)
-
-## Genre Details Screen - Artists
-![Screenshot5](screenshots/fifth.png)
-## Artist Details
-![Screenshot6](screenshots/sixth.png)
-![Screenshot7](screenshots/seventh.png)
-
-## Genre Details Screen - Tracks
-![Screenshot8](screenshots/eigth.png)
 
 
 
