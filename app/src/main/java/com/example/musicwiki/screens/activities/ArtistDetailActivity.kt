@@ -17,6 +17,7 @@ import com.example.musicwiki.viewmodels.ViewModelFactoryMain
 
 class ArtistDetailActivity : AppCompatActivity() {
 
+
     private lateinit var binding: ActivityArtistDetailBinding
     lateinit var albumInfoGenreAdapter: AlbumInfoGenreAdapter
     lateinit var artistTopTracksAdapter: ArtistTopTracksAdapter
@@ -31,6 +32,7 @@ class ArtistDetailActivity : AppCompatActivity() {
         setUpRecyclerView()
         setUpRecyclerView1()
         setUpRecyclerView2()
+
 
         val aints = intent
         val aname = aints.getStringExtra("albumName")
@@ -84,5 +86,7 @@ class ArtistDetailActivity : AppCompatActivity() {
         adapter = artistTopAlbumsAdapter
         layoutManager = LinearLayoutManager(this@ArtistDetailActivity, LinearLayoutManager.HORIZONTAL, false)
     }
+
+
 
 }
