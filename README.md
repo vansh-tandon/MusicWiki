@@ -21,25 +21,25 @@ This app demonstrates the following features and techniques:
 * View Model
 * Live Data
 
-Screenshots
+# Screenshots
 
-#First Screen
+## First Screen
 ![Screenshot1](screenshots/First.png)
-#First Screen (List expanded)
+## First Screen (List expanded)
 ![Screenshot2](screenshots/Second.png)
 
-#Genre Details Screen - Albums
+## Genre Details Screen - Albums
 ![Screenshot3](screenshots/Third.png)
-#Album Details
+## Album Details
 ![Screenshot4](screenshots/Fourth.jpg)
 
-#Genre Details Screen - Artists
+## Genre Details Screen - Artists
 ![Screenshot5](screenshots/fifth.png)
-#Artist Details
+## Artist Details
 ![Screenshot6](screenshots/sixth.png)
 ![Screenshot7](screenshots/seventh.png)
 
-#Genre Details Screen - Tracks
+## Genre Details Screen - Tracks
 ![Screenshot8](screenshots/eigth.png)
 
 
