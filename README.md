@@ -50,6 +50,7 @@ Screenshots of it can be found at the end of this README.
 ## Prerequisites
 * Android Studio
 * Last.fm API key (create one at https://www.last.fm/api/account/create)
+
 ## Installation
 * Clone this repository using git clone https://github.com/vansh-tandon/MusicWiki.git
 * Open Android Studio and select "Open an existing Android Studio project."
