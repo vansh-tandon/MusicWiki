@@ -11,7 +11,7 @@ import com.example.musicwiki.screens.activities.ArtistDetailActivity
 import com.example.musicwiki.utils.showImage
 
 
-class AdapterArtists(var mContext: Context) : RecyclerView.Adapter<AdapterArtists.GenreArtistsViewHolder>() {
+class AdapterArtists(private var mContext: Context) : RecyclerView.Adapter<AdapterArtists.GenreArtistsViewHolder>() {
     inner class GenreArtistsViewHolder(val binding: ItemArtistBinding) : RecyclerView.ViewHolder(binding.root)
     var genreArtists : List<ArtistItem> = emptyList()
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GenreArtistsViewHolder {

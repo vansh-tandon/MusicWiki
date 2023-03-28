@@ -12,7 +12,7 @@ class AdapterTracks : RecyclerView.Adapter<AdapterTracks.GenreTracksViewHolder>(
     inner class GenreTracksViewHolder(val binding: ItemArtistBinding) : RecyclerView.ViewHolder(binding.root)
     var genreTracks : List<TrackItemAll> = emptyList()
 
-     val starUrl="2a96cbd8b46e442fc41c2b86b821562f.png"
+     private val starUrl="2a96cbd8b46e442fc41c2b86b821562f.png"
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): GenreTracksViewHolder {
         return GenreTracksViewHolder(
             ItemArtistBinding.inflate(
@@ -27,7 +27,7 @@ class AdapterTracks : RecyclerView.Adapter<AdapterTracks.GenreTracksViewHolder>(
         holder.binding.apply {
             itemArtistName.setTextColor(Color.parseColor("#FF000000"))
             itemArtistName.text = genreTracks[position].name
-            var imgUrl=genreTracks[position].image[0].text
+            val imgUrl=genreTracks[position].image[0].text
             if(imgUrl.contains(starUrl)) {
                 itemImg.showImage(genreTracks[position].image[0].text)
             }

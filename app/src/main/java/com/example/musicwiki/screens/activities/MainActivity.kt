@@ -20,24 +20,18 @@ class MainActivity : AppCompatActivity() {
     private lateinit var genreAdapter: TopGenreAdapter
     private lateinit var viewModel: MainViewModel
 
-    var tagList: MutableList<TagItem> =  arrayListOf()
-    var openList = true
+    private var tagList: MutableList<TagItem> =  arrayListOf()
+    private var openList = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-
 
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
 
-
-
         genreAdapter = TopGenreAdapter(this)
         initRv()
-
-
 
         val repository = Repository()
         val viewModelFactory = ViewModelFactoryMain(repository)
